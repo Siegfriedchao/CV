@@ -1,0 +1,366 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{banking}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{enumitem}
+\usepackage{lmodern}
+
+
+% adjust the page margins
+%old - still looks good if want one more line
+%\usepackage[top=1.1cm, bottom=1.2cm, left=2cm, right=2cm]{geometry}
+%current
+\usepackage[top=1.0cm, bottom=1.0cm, left=1.8cm, right=1.8cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}    					% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% Hyperlinks
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+\AfterPreamble{\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=gray,pdfnewwindow=true}
+}
+
+% Can redefine the symbols between the details - here redefine bullet points to three spaces
+\renewcommand*{\maketitlesymbol}{~~~}
+
+% Which color do we want for the alternate colouring on right side of page
+%\colorlet{altColor}{color1} % Choose this one for blue
+\colorlet{altColor}{color2} % Choose this one for grey
+\colorlet{normal}{color0} % Change back to black afterwards
+
+% personal data
+\name{Youchao}{Wang}
+%\title{ResumÃ© title}                               % optional, remove / comment the line if not wanted
+%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+44 793 667 4795}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{yw479@cam.ac.uk}                      % optional, remove / comment the line if not wanted
+%\homepage{www.andrewkadis.com} %Commented out as used above instead                          % optional, remove / comment the line if not wanted
+\social[linkedin][www.linkedin.com/in/youchao-wang-8b806175/]{Youchao Wang} %Commented out as used above instead                         % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+\social[github][github.com/Siegfriedchao]{Siegfriedchao}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% personal data
+%\firstname{\huge Andrew}
+%\familyname{Kadis}
+%\title{Resumé title (optional)}               % optional, remove the line if not wanted
+%\address{12 Eynesbury Avenue}{Kingswood, SA 5062}% optional, remove the line if not wanted
+%\phone{+61 8 8271 3959}                      % optional, remove the line if not wantedted
+%\mobile{+61 4 3871 3959}
+%\email{andrewkadis@gmail.com}                      % optional, remove the line if not wanted
+%\homepage{\href{http://gr.linkedin.com/pub/stefania-dakourou/41/21a/396}{LinkedIn Profile}}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{picture}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\vspace*{-1.5cm}
+
+\vspace*{0.4cm}
+
+\section{Education}
+
+\vspace*{-0.00cm}
+
+\cventry{}{\vspace*{-0.6cm}}{M.Phil. in Engineering (By Research)}{\textnormal{\em \small\color{altColor} University of Cambridge, UK, 2018 -- present\color{normal}}}{}{
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item Electrical Engineering Divsion, Department of Engineering.
+	\end{itemize}
+}
+
+\vspace*{-0.4cm}
+\cventry{}{\vspace*{-0.6cm}}{B.Eng. Electronic Engineering (1\textsuperscript{st} Class Honours)}{\textnormal{\em \small\color{altColor} University of Manchester, UK, 2016 -- 2018\color{normal}}}{}{
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item Second year direct entry. Final grade: 87\%. Third year rank: 3/250. Second year rank: 1/240.
+	\end{itemize}
+}
+
+\vspace*{-0.4cm}
+\cventry{}{\vspace*{-0.6cm}}{B.Eng. Electrical Engineering and its Automation}{\textnormal{\em \small\color{altColor} North China Electric Power University, China, 2014 -- 2018\color{normal}}}{}{
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item  First and Second year overall result: 83\%. First year rank 2/119.
+	\end{itemize}
+}
+
+\vspace*{-0.4cm}
+\cventry{}{\vspace*{-0.6cm}}{High School Graduate}{\textnormal{\em \small\color{altColor} Tsinghua High School, China, 2011 -- 2014\color{normal}}}{}{
+%	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+%		\item  Software Engineering, Computer Architecture, Data Structures \& Algorithms, Object-Oriented Design
+%	\end{itemize}
+}
+
+\vspace*{-0.6cm}
+
+
+\section{Work Experience}
+
+\vspace*{-0.0cm}
+
+\cventry{\small\color{altColor} Jan. 2019 -- present}{Department of Engineering, University of Cambridge, UK\color{normal}}{Research Assistant}{}{}{
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item Supervisor: Dr. Phillip Stanley-Marbell
+		\item Embedded system circuit design and embedded system software development.
+	\end{itemize}
+}
+\vspace*{-0.2cm}
+
+\cventry{\small\color{altColor} Aug. 2018 -- Sep. 2018}{Department of Engineering, University of Cambridge, UK\color{normal}}{Research Assistant}{}{}{
+	 \begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+	 \item Supervisor: Dr. Phillip Stanley-Marbell
+	 \item Research topic: Deriving physically-inspired sensor signal invariants
+	 \item Compiler Construction, Programming language design, Signal and Noise, Dimensional analysis, Interaction with a physically-inspired high-level description language (\textit{Newton}).
+	 \end{itemize}
+}
+\vspace*{-0.2cm}
+
+\cventry{\small\color{altColor} Jul. 2017 -- Sep. 2017}{School of Electrical and Electronic Engineering, University of Manchester, UK\color{normal}}{Research Assistant}{}{}{
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item Supervisors: Prof. Bruce Grieve in collaboration with Prof. Christopher Collins at University of Reading
+		\item Research topic: ``Internet of Things'' LoRaWAN Sensor System for Protecting Rivers and Watercourses
+		\item Internet of Things (IoT) in e-Agri, Hardware design, PCB design, Firmware design and implementation, Wireless communication.
+	\end{itemize}
+}
+\vspace*{-0.2cm}
+
+\cventry{\small\color{altColor} Jul. 2016 -- Aug. 2016}{Hanban Foreign Learning Programme, North China Electric Power University, China\color{normal}}{Paid personal tutor}{}{}{
+	\vspace*{-0.10cm}
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item Paid one-on-one tutoring in the form of reading, writing and speaking (Chinese, English).
+	\end{itemize}
+}
+
+\vspace*{-0.4cm}
+
+
+\section{Position of Responsibility}
+
+\vspace*{0.0cm}
+
+
+\vspace*{-0.0cm}
+\cventry{}{}{\hspace*{2.0mm}Electronic Engineering Third Year Student Representative}{\textnormal{\em \small\color{altColor}2017 -- 2018\color{normal}}}{}{
+\vspace*{-0.60cm}
+%\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+%\item adsf
+%\end{itemize}
+}
+\vspace*{-0.7cm}
+
+\vspace*{-0.0cm}
+\cventry{}{}{\hspace*{2.0mm}Electrical and Electronic Engineering Second Year Student Representative}{\textnormal{\em \small\color{altColor}2016 -- 2017\color{normal}}}{}{
+	\vspace*{-0.60cm}
+%	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+	%	\item adsf
+%	\end{itemize}
+}
+\vspace*{-0.7cm}
+
+\vspace*{-0.0cm}
+\cventry{}{}{\hspace*{2.0mm}Chairman of NCEPU International Education School Students’ Union}{\textnormal{\em \small\color{altColor}2014 -- 2015\color{normal}}}{}{
+	\vspace*{-0.60cm}
+%	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+%		\item adsf
+%	\end{itemize}
+}
+\vspace*{-0.7cm}
+
+\vspace*{-0.0cm}
+\cventry{}{}{\hspace*{2.0mm}Chairman of Tsinghua High School Students’ Union}{\textnormal{\em \small\color{altColor}2012 -- 2013\color{normal}}}{}{
+	\vspace*{-0.60cm}
+	%	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+	%		\item adsf
+	%	\end{itemize}
+}
+\vspace*{-0.7cm}
+
+\vspace*{-0.0cm}
+\cventry{}{}{\hspace*{2.0mm}Chairman and General Secretary of Tsinghua High School Model United Nations}{\textnormal{\em \small\color{altColor}2012 -- 2013\color{normal}}}{}{
+	\vspace*{-0.60cm}
+	%	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+	%		\item adsf
+	%	\end{itemize}
+}
+
+\vspace*{-0.8cm}
+\vspace*{-0.2cm}
+
+\section{Project Portfolio}
+
+\vspace*{0.0cm}
+
+\vspace*{-0.0cm}
+\cventry{}{}{Continuous Analysis within 3D-Printed Structures Using In-Chamber Sensors}{\textnormal{\em \small\color{altColor}2018 -- present \color{normal}}}{}{
+\vspace*{-0.6cm}
+\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+\item M.Phil Degree Research Project, Supervisor: Dr. Phillip Stanley-Marbell
+\item Focus: Miniature hardware system design, PCB design, Firmware implementation, Powder material micro-structure analysis, System invariants analysis.
+\end{itemize}
+}
+
+\vspace*{-0.0cm}
+\cventry{}{}{``IoT'' Water Quality Monitoring System for Protecting Rivers and Watercourses}{\textnormal{\em \small\color{altColor}2017 -- 2018\color{normal}}}{}{
+\vspace*{-0.6cm}
+\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+\item B.Eng. Degree Individual Project, Supervisor: Prof. Bruce Grieve
+\item Focus: Low-cost turbidity sensor design, Low power system design, Encoding and decoding to enhance the data transmission efficiency
+\item Published a first-author journal paper focusing on the design of a low-cost turbidity sensor.
+\end{itemize}
+}
+
+\vspace*{-0.0cm}
+\cventry{}{}{Embedded System Project Team Competition (3\textsuperscript{rd} Rank Among 48 Groups)}{\textnormal{\em \small\color{altColor}2016 -- 2017\color{normal}}}{}{
+	\vspace*{-0.6cm}
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item Second-year Team Project: Line-following robotic buggy using light-sensitive sensor array and ultrasound sensor
+		\item A major contributor to hardware design and software implementation, including buggy structural design, line-detection application, motor control and programming
+		\item Leading role in team organisation (team of 4)
+		\item 90/100 personal project overall score
+	\end{itemize}
+}
+
+\section{Publications}
+
+\href{https://ieeexplore.ieee.org/document/8337739}{\textsc{[1] Low-Cost Turbidity Sensor for Low-Power Wireless Monitoring of Fresh-Water Courses}}
+\newline  \textbf{Youchao Wang}, Shariar Morshed Rajib, Chris Collins, Bruce Grieve. \textit{IEEE Sensors Journal} (Volume: 18, Issue: 11, June1, 1 2018)
+
+\href{https://ndnsim.net/2.3/ndnsim-research-papers.html}{\textsc{[2] Interest Set Mechanism to Improve the Transport of Named Data Networking}}
+\newline  Xiaoke Jiang, Jun Bi, \textbf{Youchao Wang}, You Wang. In \textit{Proceedings of ACM SIGCOMM13} (poster, Section 12), Hongkong, 2013. 
+
+\href{http://netarchlab.tsinghua.edu.cn/~shock/THU-NetArchLab-ICN-TR-ISTSET-20130517.pdf}{\textsc{[3] Tech report: Interest Set Mechanism to Improve the Transport of Named Data Networking}}
+\newline  Xiaoke Jiang, Jun Bi, \textbf{Youchao Wang}, You Wang.\textit{ Tsinghua University}, 2013.  
+
+% \vspace*{-0.1cm}
+\vspace*{-0.2cm}
+
+\section{Selected Honours and Awards}
+
+\vspace*{-0.0cm}
+\cventry{}{}{Third Year 3\textsuperscript{rd} Prize in School of EEE, UoM (Top 3)}{\textnormal{\em \small\color{altColor}Jun. 2018\color{normal}}}{}{
+	\vspace*{-1.1cm}
+}
+
+\vspace*{-0.7cm}
+\cventry{}{}{2018 Beijing Outstanding Higher Education Graduate Title}{\textnormal{\em \small\color{altColor}Jun. 2018\color{normal}}}{}{
+	\vspace*{-1.1cm}
+}
+
+\vspace*{-0.7cm}
+\cventry{}{}{Second Year 1\textsuperscript{st} Prize in School of EEE, UoM (Top 1)}{\textnormal{\em \small\color{altColor}Oct. 2017\color{normal}}}{}{
+	\vspace*{-1.1cm}
+}
+
+\vspace*{-0.7cm}
+\cventry{}{}{Beijing Capital University \& College “Pioneer Cup” Outstanding Member Title}{\textnormal{\em \small\color{altColor}Oct. 2016\color{normal}}}{}{
+	\vspace*{-1.1cm}
+}
+
+\vspace*{-0.7cm}
+\cventry{}{}{3\textsuperscript{rd} Prize Student Scholarship at NCEPU}{\textnormal{\em \small\color{altColor}Sep. 2016\color{normal}}}{}{
+	\vspace*{-1.1cm}
+}
+
+\vspace*{-0.7cm}
+\cventry{}{}{Entrepreneur Student Scholarship (Top 3) at NCEPU}{\textnormal{\em \small\color{altColor}Dec. 2015\color{normal}}}{}{
+	\vspace*{-1.1cm}
+}
+
+\vspace*{-0.7cm}
+\cventry{}{}{1\textsuperscript{st} Prize (Top 2) Student Scholarship at NCEPU}{\textnormal{\em \small\color{altColor}Sep. 2015\color{normal}}}{}{
+	\vspace*{-1.1cm}
+}
+
+\vspace*{-0.7cm}
+\cventry{}{}{Special Award (Top 1‰) in National English Competition for College Students}{\textnormal{\em \small\color{altColor} May. 2015\color{normal}}}{}{
+	\vspace*{-1.1cm}
+}
+
+\vspace*{-0.7cm}
+\cventry{}{}{2\textsuperscript{nd} prize (Top 10) in 20\textsuperscript{th} National English Speaking Competition, Beijing region}{\textnormal{\em \small\color{altColor} Dec. 2014\color{normal}}}{}{
+	\vspace*{-1.1cm}
+}
+\vspace*{-1cm}
+
+\section{Key Skills}
+
+\vspace*{-0.0cm}
+\cventry{}{}{Subject Related}{\textnormal{\em \small\color{altColor}\color{normal}}}{}{
+	\vspace*{-0.6cm}
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item Proficient in C programming. Proficient in Mac and Linux (Ubuntu, Scientific Linux, etc.). 
+		\item Know well in VB, C++, VHDL, Python, Java (Eclipse IDE and Android software development), Matlab and Simulink.
+		\item Proficient in MplabX IDE. Know well in Cadence Software (VLSI), Xilinx IDE (VHDL).
+		\item Proficient in Altium Designer. Know well in Eagle, Designspark, NI Multisim (Circuit and PCB design). Know well in Solidworks and AutoCAD (Product design).
+		\item Proficient in Altium Designer. Know well in Eagle, Designspark, NI Multisim (Circuit and PCB design). Know well in Solidworks and AutoCAD (Product design).
+		\item Proficient in the use of microcontrollers (PIC18 family). Know well in Raspberry Pi.
+		\item Know well in the Cortex M series.
+	\end{itemize}
+}
+
+\vspace*{-0.2cm}
+\cventry{}{}{IT}{\textnormal{\em \small\color{altColor}\color{normal}}}{}{
+	\vspace*{-0.6cm}
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item Proficient in the use of Adobe Family (Audition, After Effect, Premiere, Photoshop), Microsoft Office Products (Tutorial How to make PPT better looking in NCEPU, 2016), Corel VideoStudio, Edius, FinalCut.
+		\item Proficient in Photography, Filmmaking and Video Editing.
+	\end{itemize}
+}
+
+\vspace*{-0.2cm}
+\cventry{}{}{Driving Licence}{\textnormal{\em \small\color{altColor}\color{normal}}}{}{
+	\vspace*{-0.6cm}
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item Full clean driving licence in China.
+	\end{itemize}
+}
+
+\vspace*{-0.2cm}
+\cventry{}{}{Language}{\textnormal{\em \small\color{altColor}\color{normal}}}{}{
+	\vspace*{-0.6cm}
+	\begin{itemize}[topsep=0.0mm, itemsep=-1.0mm, leftmargin=7.0mm]
+		\item English (\textbf{IELTS 8.0/9.0}), Chinese (Native Speaker)
+	\end{itemize}
+}
+
+% \vspace*{-0.4cm}
+\vspace*{-0.6cm}
+
+\section{Interests}
+\cvline{}{\small Photography, Tennis, Piano. Model United Nations.}
+
+
+
+%\vspace*{-0.2cm}
+
+\section{Referees}
+\cvline{}{\small Available on request}
+
+
+
+
+
+
+\end{document}
