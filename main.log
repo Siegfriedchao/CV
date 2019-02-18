@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.8)  5 FEB 2019 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.17)  18 FEB 2019 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,7 +1027,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  29677 strings out of 492649
- 557027 string characters out of 6129623
+ 557027 string characters out of 6129621
  652426 words of memory out of 5000000
  33136 multiletter control sequences out of 15000+600000
  581145 words of font info for 71 fonts, out of 8000000 for 9000
@@ -1039,7 +1039,7 @@ exlive/2018/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/2
 018/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2018/te
 xmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on main.pdf (2 pages, 116588 bytes).
+Output written on main.pdf (2 pages, 116812 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
