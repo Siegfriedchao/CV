@@ -3,4 +3,7 @@
 *.out
 *.log
 *.aux
+*.bbl
+*.bcf
+*.blg
 .DS_Store
