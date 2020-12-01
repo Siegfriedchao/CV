@@ -302,7 +302,8 @@
 \AtBeginDocument{%
 % Ensure that \ecv@leftcolwidth and \ecv@rightcolwidth
 % are correctly defined
-\ecvLeftColumnWidth{50mm}
+%% Modified here, originally 50mm
+\ecvLeftColumnWidth{32mm}
 \ecvColSep{10pt}
 
 % Set layout
@@ -751,8 +752,8 @@
 \newcommand*{\ecvLogoOffset}[1]{\setlength\ecv@logooffset{#1}}
 
 %%% Modified here
-\ecvLogoWidth{0cm}
-\ecvLogoOffset{0cm}%\typeout{logo width=\the\ecv@logowidth}
+\ecvLogoWidth{4.487cm}
+\ecvLogoOffset{0.8cm}%\typeout{logo width=\the\ecv@logowidth}
 %\typeout{logo offset=\the\ecv@logooffset}
 
 % Text bullet

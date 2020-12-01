@@ -32,6 +32,13 @@
   \edef\firstinit{#3}}
 \ecvbibhighlight{}{}{}
 
+%%% Modified here, created a new command
+\newcommand*{\ecvbibhighlightsecond}[3]{%
+  \edef\lastname{#1}%
+  \edef\firstname{#2}%
+  \edef\lastname{#3}}
+\ecvbibhighlightsecond{}{}{}
+
 % Patch new definitions
 \makeatletter
 \renewcommand{\mkbibnamegiven}[1]{%
