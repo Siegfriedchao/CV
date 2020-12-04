@@ -215,7 +215,7 @@
 }
 
 \def\ecv@currvitaekey{}
-\newcommand{\ecvcurrvitae}{\ifx\@empty\ecv@currvitaekey \large{Curriculum vitae} \else \ecv@currvitaekey \fi}
+\newcommand{\ecvcurrvitae}{\ifx\@empty\ecv@currvitaekey \large{Curriculum Vitae} \else \ecv@currvitaekey \fi}
 \newcommand{\ecvcoloredtitle}{\selectecvfont \textcolor{ecvhighlightcolor}{\ecvcurrvitae}}
 
 % Europass logo
