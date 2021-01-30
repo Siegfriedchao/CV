@@ -13,6 +13,22 @@
 % in the bibliography, mark all occurrences in bold:
 \ecvbibhighlight{Wang}{Youchao}{}
 
+\renewcommand*{\mkbibnamegiven}[1]{
+	\ifitemannotation{highlight}
+	{\textbf{#1}}
+	{#1}}
+\renewcommand*{\mkbibnamefamily}[1]{
+	\ifitemannotation{highlight}
+	{\textbf{#1}}
+	{#1}%
+	\ifitemannotation{first}
+	{\textsuperscript{*}}
+	{}%
+	\ifitemannotation{corresponding}
+	{$\mathbf{^\dagger}$}
+	{}%
+}%%
+
 %\ecvbibhighlightsecond{Wang}{Youchao}{}
 
 	\ecvname{Youchao Wang}
@@ -50,9 +66,9 @@
 \vspace*{-0.3cm}
   \ecvsection{Work experience}
 %  \vspace*{-0.2cm}
-  \ecvtitlelevel{Jan 2021 -- Jul 2021}{Internship}{Huawei Technologies Sweden \& UK}
-  \ecvitem{}{Research on the theory and simulation of Fourier optics based optical processor.}
-  \vspace*{-0.4cm}
+%  \ecvtitlelevel{Jan 2021 -- Jul 2021}{Internship}{Huawei Technologies Sweden \& UK}
+%  \ecvitem{}{Research on the theory and simulation of Fourier optics based optical processor.}
+%  \vspace*{-0.4cm}
   
   \ecvtitlelevel{Jan 2020 -- Present}{Undergraduate Supervision Tutor}{St. John’s College, University of Cambridge}
   \ecvitem{}{Give individual supervision courses to second-year Engineering students at St John’s College.}
@@ -177,9 +193,9 @@
 
 	\nocite{*}
 	\renewcommand{\section}[2]{\ecvsection{#2}}
-	\printbibtabular[title=Publications]
-
-	\ecvblueitem{\cite{DaomingDong2020} \cite{Dong:20}}{Corresponding author.}	
+	%$^*$ indicates equal contributions\\
+	\defbibnote{mynote}{\qquad\qquad\qquad\qquad \qquad {$\mathbf{^\dagger}$}corresponding author \\}
+	\printbibtabular[title=Publications, prenote=mynote]
   
   \end{europasscv}
 
